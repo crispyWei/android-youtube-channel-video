@@ -12,8 +12,8 @@
 
 #### 執行畫面截圖
 
-<img src="/images/readme-image-1.png" alt="text" width="400"/>
+<img src="/images/readme-image-1.png" alt="text" width="300"/>
 
 #### 關鍵字過濾
 
-<img src="/images/readme-image-2.png" alt="text" width="400"/>
+<img src="/images/readme-image-2.png" alt="text" width="300"/>
