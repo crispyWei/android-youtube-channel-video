@@ -10,10 +10,10 @@
     git clone https://github.com/crispyWei/android-youtube-channel-video.git
 ```
 
-#### 執行畫面截圖
+#### 影片搜尋結果畫面
 
 <img src="/images/readme-image-1.png" alt="text" width="300"/>
 
-#### 關鍵字過濾
+#### 影片播放
 
 <img src="/images/readme-image-2.png" alt="text" width="300"/>
