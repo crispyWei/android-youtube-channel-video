@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <EditText
+            android:id="@+id/searchText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="請輸入Youtuber個人首頁網址(https://www.youtube.com/channel/###_#-##############-#)"
+            android:inputType="textMultiLine"
+            android:lines="2" />
+
+        <Button
+            android:id="@+id/callApiBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="CallAPI"
+            android:text="取得連結資料" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/playListItemView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp"
+        tools:listitem="@layout/card_view_design"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
